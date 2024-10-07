@@ -1,10 +1,19 @@
+p.copyright {
+    font-weight: 400;
+}
+
+.footer-navigation ul a {
+    color: var(--body-text-100);
+    font-size: var(--fs-nav);
+}
+
 @media (max-width: 1000px) {
 
     :root {
         --fs-200: 1.6rem;
         --fs-300: 1.8rem;
         --fs-400: 2rem;
-        --fs-500: 2.5rem;
+        --fs-500: 2.2rem;
         --fs-600: 2.5rem;
 
         --fs-700: 3.5rem;
