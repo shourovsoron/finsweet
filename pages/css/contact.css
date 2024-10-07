@@ -412,68 +412,55 @@ header {
 }
 
 /* About Section Start */
-.about-section {
-    padding-top: 12.7rem;
+.Contact-us {
+    padding-top: 14.7rem;
+    padding-bottom: 8rem;
 }
 
-.about-section .content-wrapper {
+.Contact-us .content-wrapper {
     gap: 5rem;
-    flex-wrap: wrap;
+    max-width: 62.4rem;
+    margin-inline: auto;
 
 }
 
 
-.about-section .left-side h2 {
-    max-width: 44.6rem;
-}
-
-.about-section .right-side {
-    max-width: 73.3rem;
-}
-
-.about-section .portfolio {
-    gap: 3.2rem;
-    margin-top: 16rem;
-    flex-wrap: wrap;
-
-}
-
-.about-section .portfolio .portfolio-img {
-    max-width: 40.5rem;
-    height: 49.9rem;
-    overflow: hidden;
-
-
-}
-
-.about-section .portfolio .portfolio-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-
-}
-
-.education-wrapper {
-    margin-top: 16rem;
-    display: flex;
-    gap: 10.1rem;
-    flex-wrap: wrap;
-}
-
-.education-wrapper h2 {
-    margin-top: 16rem;
+.Contact-us h2 {
+    max-width: 62.4rem;
     margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
 }
 
-.education-wrapper .all-education {
-    padding-left: 7.2rem;
-    border-left: 1px solid #ffffff2c;
+.Contact-us .content-wrapper form{
+    margin-top: 6.1rem;
 }
 
-.education-wrapper .all-education .education p {
-    margin: .8rem 0rem;
+.Contact-us .content-wrapper form label{
+    opacity: 60%;
 }
+.Contact-us .content-wrapper form textarea, input:not([class="btn-primary"]){
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 1rem 0rem;
+    color: #fff;
+    border-bottom: 1px solid #ffffff42;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer Start */
 footer {
@@ -568,34 +555,19 @@ footer .footer-bottom .copyright {
 
 @media (max-width: 1000px) {
 
-    .education-wrapper {
-        margin-top: 15rem;
-        display: flex;
-        gap: 10.1rem;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 
-    .education-wrapper .caption {
-        display: block;
-    }
-
-    .education-wrapper .all-education {
-        padding-left: 0rem;
-        margin-inline: auto;
-        border-left: 0px solid #ffffff2c;
-    }
-    .education-wrapper .education {
-        width: fit-content;
-    }
-
-    .about-section {
+    .Contact-us{
         padding-top: 8rem;
+        
     }
 
     .footer-navigation ul {
         gap: 3.2rem;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .Contact-us h2{
+        text-align: start;
     }
 }
