@@ -864,6 +864,10 @@ footer{
 
 }
 
+footer.section-gap{
+  padding-bottom: 3.2rem;
+}
+
 
 footer h2{
   margin-bottom: 4.8rem;

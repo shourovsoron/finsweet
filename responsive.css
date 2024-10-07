@@ -250,4 +250,10 @@
         flex-wrap: wrap;
         gap: 3rem;
     }
+
+    .footer-navigation ul {
+        gap: 3.2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
