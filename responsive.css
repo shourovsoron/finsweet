@@ -13,6 +13,15 @@
 
     }
 
+    @media (max-width: 400px) {
+       :root{
+        --fs-700: 3rem;
+        --fs-800: 3.4rem;
+       }
+    }
+    
+
+
 
     h1 {
         line-height: 1.4em;
